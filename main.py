@@ -5,6 +5,9 @@ import ipaddress
 #from ipaddress import IPv4Network
 #IPv4Address('192.0.2.6') in IPv4Network('192.0.2.0/28')
 
+_version="0.1.0"
+print("CheckIPAddr version: ",_version);
+
 fd1=open("file1.txt","r")
 fd2=open("file2.txt","r")
 fd3=open("file3.txt","r")
